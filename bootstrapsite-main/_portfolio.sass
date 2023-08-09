@@ -1,0 +1,66 @@
+#portfolio
+    background-color: #acadaf16
+    .textbox
+        padding-top: 40px
+        text-align: center
+        h1
+            font-size: 50px
+            font-weight: 700
+            margin-bottom: 15px
+        h3
+            font-size: 20px
+            color: #a6a9ad
+            margin-bottom: 70px
+        h2
+            font-size: 29px
+            font-weight: 700
+            line-height: 1.2
+            margin-top: 13px
+        h4
+            font-size: 20px
+            color: #838489
+    .box
+        margin-bottom: 30px
+        background-color: #ffff
+        padding-bottom: 20px
+        .textbox
+            padding: 0
+        .imgbox
+            position: relative
+            .icon
+                width: 100%
+                display: flex
+                justify-content: center
+                align-items: center
+                font-size: 60px
+                color: #ffff
+                position: absolute
+                top: 0
+                bottom: 0
+                opacity: 0
+                &:hover
+                    background-color: #ffbb00
+                    opacity: 0.9
+                    transition: 0.5s
+                    cursor: pointer
+
+
+
+ 
+
+    @media screen and ( max-width: 992px )
+        .box
+            .imgbox
+                width: auto
+
+    @media screen and ( max-width: 576px )
+        .textbox
+            h1
+                font-size: 40px
+            h3
+                font-size: 18px
+                margin-bottom: 35px
+        .box
+            margin-bottom: 50px
+            .imgbox
+                width: auto
